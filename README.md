@@ -1,4 +1,3 @@
-# The-lost-cause.github.io
 My Portfolio 
 Feel free to use my Source-Code as your Portfolio Template.  
 
