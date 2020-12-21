@@ -1,0 +1,88 @@
+
+.about h2 {
+    font-size: 50px;
+    margin-bottom: -2rem;
+}
+
+.about h3 {
+    margin-top: 1rem;
+}
+
+.bio {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    flex-flow: row wrap;
+}
+
+.bio-pitch, .bio-exp {
+    display: flex;
+    flex-basis: 30%;
+    margin-right: 1rem;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.resume {
+    flex-basis: 30%;
+    z-index: 99;
+}
+
+.resume > img {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    color: dodgerblue;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+}
+
+.bio-1, .bio-2 {
+    font-weight: lighter;
+    margin-top: -2rem;
+    font-family: 'Comfortaa', cursive;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+.bio span {
+    display: inline-block;
+    color: dodgerblue;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+div span::first-letter  {
+    font-size: 2rem;
+    font-weight: bold; 
+    color: seagreen;   
+}
+
+.india::first-letter {
+    color: #d35400;
+}
+
+span.india {
+    margin-bottom: -1rem;
+    color: green;
+}
+
+.bio a img {
+    width: 40px;
+}
+
+@media all and (max-width: 920px) {
+    .bio div {
+        flex-basis: 90%;
+    }
+}

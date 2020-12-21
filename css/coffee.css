@@ -1,0 +1,32 @@
+.coffee > img {
+    display:block;
+    margin: 0 auto;
+}
+
+.coffee p {
+    margin: 0 autos;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    font-size: bold;
+    font-size: 30px;
+    padding-bottom: 4rem;
+
+
+}
+
+.coffee p span::first-letter {
+    display: inline-block;
+    color: chocolate;
+    font-size: 50px;
+}
+
+.coffee p span {
+
+    color: rgb(148, 62, 1);
+}
+
+.coffee  {
+    border-radius: 2rem;
+    color: black;
+    background-color: #e8edf1;
+}

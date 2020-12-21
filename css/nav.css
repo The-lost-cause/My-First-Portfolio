@@ -1,0 +1,58 @@
+nav {
+    border: 1px solid hsl(189, 68%, 96%);
+    background-color: hsl(189, 68%, 96%);
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all 0.5s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: seagreen;
+  font-size: 40px;
+}
+
+/* Navigation Stroke Part (Underline) */
+
+nav.stroke ul li a {
+  position: relative;
+  transition: font-size 0.2s linear;
+}
+
+nav.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '';
+  color: seagreen;
+  background: peru;
+  height: 1px;
+}
+
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+nav ul > li, ul li {
+    list-style-type: none;
+    margin-right: 0.6rem;
+}
+
+li > a {
+    text-decoration: none;
+}
+

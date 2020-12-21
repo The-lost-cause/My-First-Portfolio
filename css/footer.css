@@ -1,0 +1,92 @@
+.contact {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+@media all and (max-width:453px) {
+    .contact {
+        justify-content: end;
+        margin-left: 2rem;
+    }
+
+}
+
+@media all and (max-width: 586px) { 
+
+    .contact {
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .email, .mobile, .map {
+        flex-basis: 70%;
+    }
+
+    .map iframe {
+        width: 80%;
+    }
+}
+
+
+.email, .mobile, .map {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.email img, .mobile img, .map img{
+    width: 50px;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+iframe {
+    border: 1px solid dodgerblue;
+    border-radius: 1rem;
+}
+
+
+footer {
+    background-color: hsl(189, 68%, 96%);
+}
+
+footer h3, h4 {
+    text-decoration: underline;
+}
+
+
+footer ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+footer ul img {
+    width: 50px;
+    padding-right: 1rem;
+}
+
+footer ul {
+    margin-top: -2rem;
+}
+
+footer p {
+    text-align: center;
+    font-family: Satisfy, cursive;
+    color: rgb(30, 64, 255);
+    font-size: bold;
+    font-size: large;
+}
+
+footer > p {
+    background-color: rgba(0, 0, 0, 0.877);
+    padding: 1.2rem 0;
+    color: wheat;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+}

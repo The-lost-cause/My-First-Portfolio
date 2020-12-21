@@ -1,0 +1,49 @@
+.work {
+    background-color: hsl(189, 70%, 96%);
+    padding-bottom: 7rem;
+}
+
+.project {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.projects li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+    color: peru;
+}
+
+.projects li a {
+    padding-right: 1rem;
+}
+
+.projects li img {
+    margin-bottom: -0.3rem;
+    border: 2px solid black;
+    margin-top: 2rem;
+}
+
+
+@media all and (max-width: 530px ) {
+    .projects li a img {
+        width: 100%;
+        margin-top: 1rem
+    } 
+
+}
+
+@media all and (max-width: 450px ) {
+
+    .projects li:nth-child(2) a img {
+    
+        width: 200px;
+
+    }
+}
+
